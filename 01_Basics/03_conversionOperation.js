@@ -43,3 +43,5 @@ let someNumber = 33
 let strNumber = String(someNumber)
 console.log(strNumber);
 console.log( typeof strNumber);
+
+
