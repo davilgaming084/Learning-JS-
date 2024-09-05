@@ -1,30 +1,28 @@
-"use strict"// treate all js code as newer version
+"use strict"; // Treat all JS code as newer version
 
-// alert(3+3)// we are usinhg node js not browser
+// alert(3+3); // We are using Node.js, not browser
 
 // console.log(3+3);
 // console.log("Satish");
 
-//data types 
+// Data types 
 
-//Primitive Data Types
-//string,=> "Satish"
-//number => 1234
-//boolean=>true/false
-//null => stand alone value /datatype
-//undifind => declare var but didn't give them value
-//symbol=>use in react
-//bigint => use for large number
+// Primitive Data Types
+// string => "Satish"
+// number => 1234
+// boolean => true/false
+// null => standalone value
+// undefined => declared variable but didn't assign a value
+// symbol => unique identifiers
+// bigint => used for large numbers
 
-// non Primitive Data Types
+// Non-Primitive Data Types
 // object
-//array
+// array
 // function
 
+// typeof operator
+// Note: typeof null returns "object" (this is a known JavaScript quirk)
 
-
-//typeof 
-// null => object
-
-console.log(typeof null);// object
-console.log(typeof undefined);// undifind
+console.log(typeof null); // object
+console.log(typeof undefined); // undefined
