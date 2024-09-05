@@ -11,9 +11,15 @@ const accountId = 144553
 let accountEmial = "abc@gmail.com"
 var accountPassword = "12345"
 accountCity = "New Delhi"
+let accoountState; // undefined
 
 //accountId = 1 // not allowed  because of const
 accountEmial = "bca@gmail.com"
 accountPassword = "212121"
+accountCity = "mumbai"
 // console.log(accountId);
-console.table([accountId,accountEmial,accountPassword]);
+console.table([accountId,accountEmial,accountPassword,accountCity,accoountState]); // console.table is use for print the value in table format
+
+
+// NOtes 
+//prefer not to use var because of issue in scoping or functional scope
