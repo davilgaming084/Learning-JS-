@@ -16,8 +16,8 @@ let valueInNumber = Number(score)// converting string into number
 
 //notes convert all datatype in number
 // "33" => 33
-// "33abs"=> Nan
-// ture => 1 
+// "33abc"=> Nan
+// true => 1 
 //false => 0 
 // null => 0
 // undifind => Nan
@@ -26,20 +26,20 @@ let valueInNumber = Number(score)// converting string into number
 
 //////////  convert in bollean
 // let isloggedin = 1
-let isloggedin = null
+let isLoggedIn = null
 
-let ConverNumberTOBOllen =  Boolean(isloggedin)
-// console.log(typeof isloggedin);
-// console.log(ConverNumberTOBOllen);
-// console.log(typeof ConverNumberTOBOllen);
+let convertNumberToBoolean = Boolean(isLoggedIn)
+// console.log(typeof isLoggedIn);
+// console.log(convertNumberToBoolean);
+// console.log(typeof convertNumberToBoolean);
 
-// l=> true
+// 1 => true
 // "abc" => true
 // ''=> false
 // null => false
 
 ////////////  convert in string
-let somenumber = 33
-let strNumber = String(somenumber)
+let someNumber = 33
+let strNumber = String(someNumber)
 console.log(strNumber);
 console.log( typeof strNumber);
