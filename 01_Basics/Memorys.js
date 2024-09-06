@@ -1,29 +1,31 @@
-// There are two type of Memory
-// stack => primativ
-// heap => non primatiev
+// There are two types of Memory:
+// Stack => Primitive
+// Heap => Non-primitive
 
-// stack is use for primitive datatype // it return copy 
-// heap is use for non primitive datatype // it retuen orignal refrance
+// Stack is used for primitive data types (it returns a copy)
+// Heap is used for non-primitive data types (it returns the original reference)
 
 // Stack Memory Notes:
 // 1. Used for primitive data types (e.g., strings, numbers, booleans)
 // 2. Creates a copy of the value when assigning to a new variable
 // 3. Changes to the copy don't affect the original value
 
-let myyoutubeName = "dfghjk";
-let anothername = myyoutubeName;  // Creates a copy of the value
-anothername = "satish";  // Modifies only 'anothername', not 'myyoutubeName'
+let myYoutubeName = "dfghjk";
+let anotherName = myYoutubeName;  // Creates a copy of the value
+anotherName = "satish";  // Modifies only 'anotherName', not 'myYoutubeName'
 
-// console.log(anothername);  // Output: "satish"
-// console.log(myyoutubeName);  // Output: "dfghjk" (unchanged)
+console.log(anotherName);  // Output: "satish"
+console.log(myYoutubeName);  // Output: "dfghjk" (unchanged)
 
+// Example of Heap Memory (non-primitive data type)
 let user = {
-    email : "abc@gnankd",
-    upi : "qwghdvqwh@abl"
+    email: "abc@gmail.com",
+    upi: "user123@upi"
+};
 
-}
-let user2 = user
-user.email = "newemail"
-console.log(user);
-console.log(user2);
+let user2 = user;  // Both variables reference the same object in memory
+user.email = "newemail@gmail.com";
+
+console.log(user);  // Output: { email: "newemail@gmail.com", upi: "user123@upi" }
+console.log(user2);  // Output: { email: "newemail@gmail.com", upi: "user123@upi" }
 
