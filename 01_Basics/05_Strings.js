@@ -1,17 +1,24 @@
-let name1 = " satish ";
+// String declaration and manipulation
+let name = "Satish";
 let repoCount = 15;
 
-//  console.log(name1  + ' ' +  repoCount);  concat method but its old  use new string intorpulation 
+// Old way of string concatenation (not recommended)
+// console.log(name + ' ' + repoCount);
 
+// Modern string interpolation (template literals)
+console.log(`Hello, my name is ${name.toUpperCase()} and I have ${repoCount} repositories.`);
 
-/// string intorpulation
-// console.log(`helo my name is ${name1.toUpperCase()} and my repo  is ${repoCount}`);
+// Creating a string using the String constructor
+let gameName = new String('Halo');
+console.log(gameName[0]); // Accessing characters using index
 
-// declare string/ variable obj/constractor way
-let gameName = new String('hy') // 1. When you use new String('hy'), you're creating a String object.
-console.log(gameName[0]); // you can acsess  useing index value
+// String methods
+console.log(`Length of gameName: ${gameName.length}`);
+console.log(`Uppercase gameName: ${gameName.toUpperCase()}`);
 
-// String Methods  pending 
-console.log(gameName.length);
-console.log(gameName.toUpperCase());
-//
+// Additional useful string methods
+console.log(`Lowercase gameName: ${gameName.toLowerCase()}`);
+console.log(`First index of 'a' in gameName: ${gameName.indexOf('a')}`);
+console.log(`Last character of gameName: ${gameName.charAt(gameName.length - 1)}`);
+console.log(`Substring of gameName: ${gameName.substring(1, 3)}`);
+console.log(`Trimmed name: ${name.trim()}`);
