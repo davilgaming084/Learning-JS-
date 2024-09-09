@@ -2,24 +2,24 @@
 // const, let, var
 
 
-// const is use for constant value  means it can't be change modify or redeclare
-// let is use for variable value  means it can be change modify or redeclare
-//var -> dont use  var becouse of scoping problem
-// is use for variable value  means it can be change modify or redeclare 
+// const is used for constant values; it can't be changed, modified, or redeclared
+// let is used for variable values; it can be changed, modified, or redeclared
+// var -> don't use var because of scoping problems
+// var is used for variable values; it can be changed, modified, or redeclared 
 
-const accountId = 144553 
-let accountEmial = "abc@gmail.com"
-var accountPassword = "12345"
-accountCity = "New Delhi"
-let accoountState; // undefined
+const accountId = 144553;
+let accountEmail = "abc@gmail.com";
+var accountPassword = "12345";
+let accountCity = "New Delhi";
+let accountState; // undefined
 
-//accountId = 1 // not allowed  because of const
-accountEmial = "bca@gmail.com"
-accountPassword = "212121"
-accountCity = "mumbai"
+// accountId = 1; // not allowed because of const
+accountEmail = "bca@gmail.com";
+accountPassword = "212121";
+accountCity = "Mumbai";
+
 // console.log(accountId);
-console.table([accountId,accountEmial,accountPassword,accountCity,accoountState]); // console.table is use for print the value in table format
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState]); // console.table is used to print the values in table format
 
-
-// NOtes 
-//prefer not to use var because of issue in scoping or functional scope
+// Notes 
+// Prefer not to use var because of issues in block scoping and function scoping
