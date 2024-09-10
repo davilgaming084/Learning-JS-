@@ -16,7 +16,7 @@ console.log(gameName[0]); // Accessing characters using index
 console.log(`Length of gameName: ${gameName.length}`);
 console.log(`Uppercase gameName: ${gameName.toUpperCase()}`);
 
-// Additional useful string methods
+//String methods
 // length => Get Length Of value it count (_)space  also / length is property os string
 // toUpperCase = > Convert variable string value  into uppercase
 // toLowerCase = > Convert variable string value into Lowercase
