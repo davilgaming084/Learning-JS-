@@ -10,16 +10,16 @@ console.log(`Hello, my name is ${name.toUpperCase()} and I have ${repoCount} rep
 
 // Creating a string using the String constructor
 let gameName = new String('Halo');
-console.log(gameName[0]); // Accessing characters using index
+// console.log(gameName[0]); // Accessing characters using index
 
 // String methods
-console.log(`Length of gameName: ${gameName.length}`);
-console.log(`Uppercase gameName: ${gameName.toUpperCase()}`);
+// console.log(`Length of gameName: ${gameName.length}`);
+// console.log(`Uppercase gameName: ${gameName.toUpperCase()}`);
 
 //String methods
 // length => Get Length Of value it count (_)space  also / length is property os string
-// toUpperCase = > Convert variable string value  into uppercase
-// toLowerCase = > Convert variable string value into Lowercase
-// include = > 
-let a = "abc "
-    console.log(a.length);
+// toUpperCase = > Convert variable>string>value  into uppercase
+// toLowerCase = > Convert variable>string>value into Lowercase
+// include = > Find word and latter in variable>string>value  
+let a = "abcd efgh "
+    console.log(a.includes("aBcD"));
