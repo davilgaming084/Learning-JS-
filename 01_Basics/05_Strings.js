@@ -17,8 +17,3 @@ console.log(`Length of gameName: ${gameName.length}`);
 console.log(`Uppercase gameName: ${gameName.toUpperCase()}`);
 
 // Additional useful string methods
-console.log(`Lowercase gameName: ${gameName.toLowerCase()}`);
-console.log(`First index of 'a' in gameName: ${gameName.indexOf('a')}`);
-console.log(`Last character of gameName: ${gameName.charAt(gameName.length - 1)}`);
-console.log(`Substring of gameName: ${gameName.substring(1, 3)}`);
-console.log(`Trimmed name: ${name.trim()}`);
