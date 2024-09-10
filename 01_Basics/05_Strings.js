@@ -17,3 +17,8 @@ console.log(`Length of gameName: ${gameName.length}`);
 console.log(`Uppercase gameName: ${gameName.toUpperCase()}`);
 
 // Additional useful string methods
+// length => Get Length Of value it count (_)space  also / length is property os string
+// 
+
+    let a = "abc "
+    console.log(a.length);
