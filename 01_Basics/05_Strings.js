@@ -52,4 +52,12 @@ let g = "Satish saroj"
 // console.log(g.search("Satish")) // 0 it not word on word 
 // console.log(g.search("s")) // index 4 fron "Satish"  is find first s in word 
 // console.log(g.search("s")) // index 4  i want from "saroj" but retuen from "Satish"  // higher posiblity find s who write on start first 
+//-----------------------------------------------------------------------------------------------
+//8) match => find/search word and create array 
+let h = "Satish saroj"
+// console.log(h.match(/a/g)); //  find all a in h and add in 1 array // use regular expression /type here you want search/g
+//-----------------------------------------------------------------------------------------------
+// 9) indexof = find index of word 
+let i = "Satish saroh"
+// console.log(i.indexOf("a"));// index 1  // search from begining 
 //String / inturpulation / methods
