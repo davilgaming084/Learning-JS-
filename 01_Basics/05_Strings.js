@@ -57,7 +57,16 @@ let g = "Satish saroj"
 let h = "Satish saroj"
 // console.log(h.match(/a/g)); //  find all a in h and add in 1 array // use regular expression /type here you want search/g
 //-----------------------------------------------------------------------------------------------
-// 9) indexof = find index of word 
+// 9) indexof = find index of latters 
 let i = "Satish saroh"
 // console.log(i.indexOf("a"));// index 1  // search from begining 
+//-----------------------------------------------------------------------------------------------
+// 10 lastIndexOf => find index of latters form last 
+let j = "Satish saroj";
+console.log(j.lastIndexOf("a")); // Output: 8 from "saroj" from last 
+console.log(j.lastIndexOf("s")); // Output: 7 from "saroj" from last 
+console.log(j.lastIndexOf("z")); // Output: -1 (not found)
+
+// You can also specify a starting position for the search
+console.log(j.lastIndexOf("a", 5)); // Output: 1 (searches from index 5 towards the beginning)
 //String / inturpulation / methods
