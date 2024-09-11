@@ -28,8 +28,8 @@ let c = "ABC  "
 // console.log(c.toLowerCase()); // "abc " convert lowercase
 // include = > Find word and latter in variable>string>value  
 let e = "Satish abc ef"
-// console.log(e.includes("Satish")); // find/search word
-// console.log(e.includes("ef")); find/search latter
+// console.log(e.includes("Satish")); // find/search word / casesensetive
+// console.log(e.includes("ef")); find/search latter / casesensetive
 
 
 
