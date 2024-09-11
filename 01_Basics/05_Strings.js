@@ -63,10 +63,13 @@ let i = "Satish saroh"
 //-----------------------------------------------------------------------------------------------
 // 10 lastIndexOf => find index of latters form last 
 let j = "Satish saroj";
-console.log(j.lastIndexOf("a")); // Output: 8 from "saroj" from last 
-console.log(j.lastIndexOf("s")); // Output: 7 from "saroj" from last 
-console.log(j.lastIndexOf("z")); // Output: -1 (not found)
-
+// console.log(j.lastIndexOf("a")); // Output: 8 from "saroj" from last 
+// console.log(j.lastIndexOf("s")); // Output: 7 from "saroj" from last 
+// console.log(j.lastIndexOf("z")); // Output: -1 (not found)
 // You can also specify a starting position for the search
-console.log(j.lastIndexOf("a", 5)); // Output: 1 (searches from index 5 towards the beginning)
+// console.log(j.lastIndexOf("a", 5)); // Output: 1 (searches from index 5 towards the beginning)
+//-----------------------------------------------------------------------------------------------
+// replace 11  => replace word 
+let k = "Satish saroj";
+// console.log(k.replace('saroj',"Kumar")); // replace saraoj into kumar
 //String / inturpulation / methods
