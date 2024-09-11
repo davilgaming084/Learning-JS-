@@ -18,8 +18,19 @@ let gameName = new String('Halo');
 
 //String methods
 // length => Get Length Of value it count (_)space  also / length is property os string
+let a = "abc "
+// console.log(a.length); // is 4 it also count space 
 // toUpperCase = > Convert variable>string>value  into uppercase
+let b = "abc "
+// console.log(b.toUpperCase()); // "ABC "  convert uppercase
 // toLowerCase = > Convert variable>string>value into Lowercase
+let c = "ABC  "
+// console.log(c.toLowerCase()); // "abc " convert lowercase
 // include = > Find word and latter in variable>string>value  
-let a = "abcd efgh "
-    console.log(a.includes("aBcD"));
+let e = "Satish abc ef"
+// console.log(e.includes("Satish")); // find/search word
+// console.log(e.includes("ef")); find/search latter
+
+
+
+//String / inturpulation / methods
