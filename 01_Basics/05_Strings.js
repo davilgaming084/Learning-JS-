@@ -72,4 +72,8 @@ let j = "Satish saroj";
 // replace 11  => replace word 
 let k = "Satish saroj";
 // console.log(k.replace('saroj',"Kumar")); // replace saraoj into kumar
+//-----------------------------------------------------------------------------------------------
+// 12 trim => remove whatereverfrom start or end 
+let l = " Satish "
+console.log(l.trim());
 //String / inturpulation / methods
