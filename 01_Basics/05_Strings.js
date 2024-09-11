@@ -17,51 +17,51 @@ let gameName = new String('Halo');
 // console.log(`Uppercase gameName: ${gameName.toUpperCase()}`);
 
 //String methods
-// 1) length => Get Length Of value it count (_)space  also / length is property os string
+// 1) length => Get length of value. It counts spaces also. Length is a property of string
 let a = "abc "
-// console.log(a.length); // is 4 it also count space 
+// console.log(a.length); // is 4 it also counts space 
 //-----------------------------------------------------------------------------------------------
-// 2) toUpperCase = > Convert variable>string>value  into uppercase
+// 2) toUpperCase => Convert variable>string>value into uppercase
 let b = "abc "
-// console.log(b.toUpperCase()); // "ABC "  convert uppercase
+// console.log(b.toUpperCase()); // "ABC " converts to uppercase
 //-----------------------------------------------------------------------------------------------
-// 3) toLowerCase = > Convert variable>string>value into Lowercase
+// 3) toLowerCase => Convert variable>string>value into lowercase
 let c = "ABC  "
-// console.log(c.toLowerCase()); // "abc " convert lowercase
+// console.log(c.toLowerCase()); // "abc " converts to lowercase
 //-----------------------------------------------------------------------------------------------
-// 4)include = > Find any word and  any latter in variable>string>value   
+// 4) includes => Find any word or any letter in variable>string>value   
 let d = "Satish abc ef"
-// console.log(e.includes("Satish")); // find/search word / casesensetive
-// console.log(d.includes("ef"));// true  //find/search latter / casesensetive
-// console.log(d.includes("e")); // true // find/search latter / casesensetive
+// console.log(d.includes("Satish")); // find/search word / case-sensitive
+// console.log(d.includes("ef")); // true  //find/search letter / case-sensitive
+// console.log(d.includes("e")); // true // find/search letter / case-sensitive
 //-----------------------------------------------------------------------------------------------
-// 5 )stratWith => find lettrs/word in the start of  starting   /only 1 starting word or letter / also it is casesensitive 
+// 5) startsWith => find letters/word at the start of string / only 1 starting word or letter / also it is case-sensitive 
 let e = "Satish saroj"
-// console.log(e.startsWith("Satish"));// true
-// console.log(e.startsWith("saroj"));// false
-// console.log(e.startsWith("Sa"));// true
-// console.log(e.startsWith("sa"));// false
+// console.log(e.startsWith("Satish")); // true
+// console.log(e.startsWith("saroj")); // false
+// console.log(e.startsWith("Sa")); // true
+// console.log(e.startsWith("sa")); // false
 //-----------------------------------------------------------------------------------------------
-// 6) endsWith = > find/search word/letter in string in last of string / only 1 starting word or letter /  also it is casesensitive 
+// 6) endsWith => find/search word/letter in string at the end of string / only 1 ending word or letter / also it is case-sensitive 
 let f =  "Satish saroj"
 // console.log(f.endsWith("saroj")); // true
 // console.log(f.endsWith("oj")); // true
 //-----------------------------------------------------------------------------------------------
-// 7)  search => find/search ( only latters) and return index => work as include but is return index not true false like includes 
+// 7) search => find/search (only letters) and return index => works like includes but returns index not true/false 
 let g = "Satish saroj"
-// console.log(g.search("Satish")) // 0 it not word on word 
-// console.log(g.search("s")) // index 4 fron "Satish"  is find first s in word 
-// console.log(g.search("s")) // index 4  i want from "saroj" but retuen from "Satish"  // higher posiblity find s who write on start first 
+// console.log(g.search("Satish")) // 0 it does not work on whole word
+// console.log(g.search("s")) // index 4 from "Satish" it finds first 's' in word 
+// console.log(g.search("s")) // index 4 I want from "saroj" but returns from "Satish" // higher probability to find 's' which is written first 
 //-----------------------------------------------------------------------------------------------
-//8) match => find/search word and create array 
+// 8) match => find/search word and create array 
 let h = "Satish saroj"
-// console.log(h.match(/a/g)); //  find all a in h and add in 1 array // use regular expression /type here you want search/g
+// console.log(h.match(/a/g)); //  find all 'a' in h and add in 1 array // use regular expression /type here what you want to search/g
 //-----------------------------------------------------------------------------------------------
-// 9) indexof = find index of latters 
-let i = "Satish saroh"
-// console.log(i.indexOf("a"));// index 1  // search from begining 
+// 9) indexOf = find index of letters 
+let i = "Satish saroj"
+// console.log(i.indexOf("a")); // index 1  // search from beginning 
 //-----------------------------------------------------------------------------------------------
-// 10 lastIndexOf => find index of latters form last 
+// 10) lastIndexOf => find index of letters from last 
 let j = "Satish saroj";
 // console.log(j.lastIndexOf("a")); // Output: 8 from "saroj" from last 
 // console.log(j.lastIndexOf("s")); // Output: 7 from "saroj" from last 
@@ -69,11 +69,11 @@ let j = "Satish saroj";
 // You can also specify a starting position for the search
 // console.log(j.lastIndexOf("a", 5)); // Output: 1 (searches from index 5 towards the beginning)
 //-----------------------------------------------------------------------------------------------
-// replace 11  => replace word 
+// 11) replace => replace word 
 let k = "Satish saroj";
-// console.log(k.replace('saroj',"Kumar")); // replace saraoj into kumar
+// console.log(k.replace('saroj', "Kumar")); // replace 'saroj' with 'Kumar'
 //-----------------------------------------------------------------------------------------------
-// 12 trim => remove whatereverfrom start or end 
+// 12) trim => remove whitespace from start or end 
 let l = " Satish "
 console.log(l.trim());
-//String / inturpulation / methods
+// String / interpolation / methods
