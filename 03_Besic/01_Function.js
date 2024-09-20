@@ -35,7 +35,7 @@ function plus(num1, num2) {
     return num1 + num2 // return ans on function itself  as function value then console.log(plus(2,2)) => 4
 }
 // plus(2,2)/// only exicute // not useable in return function
-console.log(plus(2, 2)); // plus value is 4 now // useable in return function
+// console.log(plus(2, 2)); // plus value is 4 now // useable in return function
 let funresult = plus(3, 3) // plue value assign in variable 
 // console.log(funresult);
 
@@ -44,7 +44,7 @@ let funresult = plus(3, 3) // plue value assign in variable
 function sayname(name = "satish") {
     return name // return ans on function itself  as function value then console.log(plus(2,2)) => 4
 }
-console.log(sayname());
+// console.log(sayname());
 
 // function type
 
@@ -69,4 +69,51 @@ console.log(sayname());
 //        // code
 //    })();
 
+// --------------------------------------------
 
+
+// Rest operator---
+// The rest operator allows you to handle multiple arguments as a single array.
+
+function CalculatePrice(num) { // Non-rest operator
+    return num; // Returns the single argument
+}
+// console.log(CalculatePrice(2)); // Example with one argument
+// console.log(CalculatePrice(220, 300, 700)); // Example with multiple arguments
+
+// Using the Rest operator to handle multiple arguments
+function CalculatePrice(...nums) { // '...nums' collects all arguments into an array
+    return nums; // Returns the array of arguments
+}
+// console.log(CalculatePrice(200, 300)); // Returns [200, 300]
+
+/////// use obj/array in function
+// array
+// way -1 
+let arr = [1,2]
+function useArr(arr) {
+    console.log(arr);
+}
+useArr(arr)
+// way -2
+function useArr(arr) {
+    console.log(arr);
+} 
+console.log([1,2]);
+
+// obj--------
+
+// way -1 
+let obj = {
+    name:"satish"
+}
+function onjget(obj) {
+    console.log(`${obj.name}`);
+}
+onjget(obj)
+
+// way-2
+function getobj(obj) {
+    console.log(`${obj.name}`);
+}
+getobj({name:'satish'})
