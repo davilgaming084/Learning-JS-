@@ -31,17 +31,42 @@ function add(number1, number2) { // number1,number2 are parameters
 // when you use  return key word in fun then it tereat as variable which hold some value/ans 
 // if you use return the in next line of return nevwer exicute 
 
-function plus(num1,num2) {
+function plus(num1, num2) {
     return num1 + num2 // return ans on function itself  as function value then console.log(plus(2,2)) => 4
 }
 // plus(2,2)/// only exicute // not useable in return function
-console.log(plus(2,2)); // plus value is 4 now // useable in return function
-let funresult = plus(3,3) // plue value assign in variable 
+console.log(plus(2, 2)); // plus value is 4 now // useable in return function
+let funresult = plus(3, 3) // plue value assign in variable 
 // console.log(funresult);
 
 
-/// default argument of fun
-function sayname(name =  "satish") {
+/// default parameter of fun
+function sayname(name = "satish") {
     return name // return ans on function itself  as function value then console.log(plus(2,2)) => 4
 }
 console.log(sayname());
+
+// function type
+
+// 1. Function Declaration
+//    function myFunction() {
+//        // code
+//    }
+
+// 2. Function Expression
+//    - Anonymous Function Expression:
+//      const myFunction = function() {
+//          // code
+//      };
+
+// 3. Arrow Function
+//    const myFunction = () => {
+//        // code
+//    };
+
+// 4. Immediately Invoked Function Expression (IIFE)
+//    (function() {
+//        // code
+//    })();
+
+
