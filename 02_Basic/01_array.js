@@ -22,10 +22,10 @@ m.push(6)
 //unshift(9)   => add element at the starting/o-index // nou usabele
 //shift()    => remove element at the starting/0-index
 //slice(0,2) => grab element of aray  index 0 to 2 but not include index 2 
-// splice(1,3) => modifi org arr by add or remove element menas start from(1,3) index 1 and remove and index1,2,3
+// splice(1,3) => used to change the contents of an array by removing or replacing existing elements and/or adding new elements in place. It modifies the original array and returns an array containing the removed elements.
 //include(2) => check value is exist or not return t/f
 //indexof => find index if element
-//join( '' ) => convert all element into joined string
+//join( '' ) => used to combine all elements of an array into a single string, with a specified separator between each element.
 //sort() sort array into 2,1,6,5 =>1,2,5,6 org 
 
 //foreach loop => execute a provided function one fro each element

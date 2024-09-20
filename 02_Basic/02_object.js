@@ -39,7 +39,11 @@ obj.greeting2 = function () {
 
 
 // obj method 
+Object.keys()// credate array and put all key as elemnet of array
+Object.values()// craete array and put all value as element of array
+Object.entries()// create array and put [key-value] pair as element
 Object.freeze(obj) // now freez obj you canot change anything
+Object.assign()// concat two or more obj /
 
 
 

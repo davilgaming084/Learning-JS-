@@ -29,6 +29,7 @@ let mytimestemp = Date.now();
 
 // localstring costomise  
 let a = new Date()
+console.log(a.getMonth());
 // console.log(a.toLocaleString('default',{month:'long'}));
 
 // methods 
