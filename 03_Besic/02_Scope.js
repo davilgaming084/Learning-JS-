@@ -58,7 +58,7 @@ console.log(addOne(5));// accsessable becouse fun crated by function keyword
 function addOne(num) {
     return num +1
 }
-console.log(addtwo()); // 
+console.log(addtwo()); // not accsessable becouse created by variable and you can nbot accsess varible before intialization
 let addtwo = function (num) { // it is expression function 
     return num + 1
 }
