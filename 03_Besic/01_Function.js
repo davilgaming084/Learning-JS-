@@ -53,8 +53,8 @@ function sayname(name = "satish") {
 //        // code
 //    }
 
-// 2. Function Expression
-//    - Anonymous Function Expression:
+// 2. Function Expression/- Anonymous Function Expression:
+//    
 //      const myFunction = function() {
 //          // code
 //      };
