@@ -7,19 +7,19 @@
 /// Chrome Enverment ---
 // when you log this in chrome console then return window object
 
-/// you can not use this in only function || this use for object-function
+/// you can not use this in only function or arrow function || this use for object-function
 function name() {
     let name = "satish"
     console.log(this); // return object there some things
     console.log(this.username); // undefind
 }
-name()
+// name()
 
 
 const user = {
-    username:'satish',
-    price:19,
-    welcomeMsg:function() {
+    username: 'satish',
+    price: 19,
+    welcomeMsg: function () {
         console.log(`${this.username} , welcome to website `);
         console.log(this);// this refer obj | this reffer current object  // jo use kare osko refer karo this is work of this keyword
     }
@@ -28,3 +28,11 @@ const user = {
 user.username = "same" // update user.name 
 // user.welcomeMsg() // now username change then where you use username also change value 
 // console.log(this); // in node enverment this on globle return empty {}
+
+/// this in arrow function 
+let hy = () => {
+    let name = "satish"
+    console.log(this); // {}
+    console.log(this.username); // undefind
+}
+hy()
