@@ -23,13 +23,13 @@ m.push(6)
 //shift()    => remove element at the starting/0-index
 //slice(0,2) => grab element of aray  index 0 to 2 but not include index 2 
 // splice(1,3) => used to change the contents of an array by removing or replacing existing elements and/or adding new elements in place. It modifies the original array and returns an array containing the removed elements.
-//include(2) => check value is exist or not return t/f
+//include(2) => check element is exist or not return t/f
 //indexof => find index if element
 //join( '' ) => used to combine all elements of an array into a single string, with a specified separator between each element.
 //sort() sort array into 2,1,6,5 =>1,2,5,6 org 
 
-//foreach loop => execute a provided function one fro each element
 
+// spread operator -- 
 let abc = [1,2,3,4,5]
 let def = [6,7,8,9,10]
 let ghi = [...abc , ...def]
