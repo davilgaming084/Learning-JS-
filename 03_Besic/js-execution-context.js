@@ -14,6 +14,14 @@
 
 
 
+
+
+
+// call stack 
+
+// --
+
+
 // watch this video for leran js -  execution
 
 // https://youtu.be/ByhtOgF6uYM?si=qey0FE0UWqAZunTt

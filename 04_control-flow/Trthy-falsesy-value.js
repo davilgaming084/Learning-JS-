@@ -3,7 +3,7 @@
 
 // Falsey value
 
-//   alse,0,-0,BigInt-0n , null, undefined , "",Nan
+//   false,0,-0,BigInt-0n , null, undefined , "",Nan
 
 
 // truthy value 
