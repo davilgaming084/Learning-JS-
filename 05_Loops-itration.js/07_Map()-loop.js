@@ -3,6 +3,8 @@
 //1) not update org array || do work as copy element and do modification on that and return modifaid value
 //2) also have 3 parameters => 1 element , 2 index , 3 whole array
 // 3) rtuen keyword work 
+//4) does not modify org array 
+
 let str = ["satish","sajn"]
 let upper = str.map((element)=>{
     return element.toUpperCase() // return all element with uppacasee
