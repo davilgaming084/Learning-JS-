@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>do learning</title>
+</head>
+<style>
+    body {
+        background-color: #212121;
+        color: aliceblue;
+        font-family: monospace;
+    }
+</style>
+
+<body>
+    <div id="head" class="bg-black">
+        <h1>dom learing</h1>
+
+        <h1>Dom Element grab Methods </h1>
+        <p>document.getElementById("") return whole tag that write in html </p>
+        <p>document.getElementByclass("") return htmlCollection </p>
+
+        <p>qurrayselector => document.querySelector("") => you can give in parameter , id,classname tag-name but it
+            return only first means if there are maney h1 tags it return 1 h1 </p>
+        <p>qurrayselectorAll => document.querySelectorAll("") => you can give in parameter , id,classname tag-name but
+            it return-> Nodelist which is containe all h1,p,tag-name </p>
+
+
+        <p>nodelist => like array but not pure array IT HAVE foreach loop </p>
+        <p>HTML-COLLECTION => like array but not pure array doesnt have foreach ,  so convert it an array bu Array.from method of array </p>
+
+        <p> innertext => show only thats is visiable if it is hide by style.css you can not able to seen on innertext
+        </p>
+        <p> textContent => show every thing of content </p>
+        <p> innerHtml => it show with tags like h1,p,etc </p>
+
+        <input type="text">
+
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+        </ul>
+    </div>
+</body>
+
+</html>

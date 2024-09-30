@@ -15,3 +15,8 @@ console.log( arrr2);
 // let sorted = arr.sort((a,b)=>a-b)
 // console.log(arr);
 // console.log(sorted);
+
+for (let index = 1; index <=10002020200203030040404050; index++) {
+    
+    console.log(5);
+}
