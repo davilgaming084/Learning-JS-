@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Element creation by js </title>
+</head>
+<style>
+    body{
+        background-color: #212121;
+        color: aliceblue;
+    }
+</style>
+<body>
+    
+</body>
+<script>
+let cratedElement = document.createElement("h1")
+cratedElement.innerText = "Element creation by js"
+cratedElement.id = Math.floor(Math.random() * 10 + 1)
+cratedElement.setAttribute("class","element")
+console.log(cratedElement);
+cratedElement.style.backgroundColor = "green"
+document.body.appendChild(cratedElement)
+</script>
+</html>

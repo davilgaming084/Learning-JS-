@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> relation </title>
+</head>
+<style>
+    body {
+        background-color: #212121;
+        color: aliceblue;
+    }
+</style>
+
+<body>
+
+    <div class="parent">
+        <div class="day">mon</div>
+        <div class="day">tue</div>
+        <div class="day">wed</div>
+        <div class="day">thursday</div>
+        <div class="day">fri</div>
+        <div class="day">dat</div>
+        <div class="day">sun</div>
+    </div>
+
+
+    <script>
+        let parent = document.querySelector(".parent")
+        // console.log(parent);
+        // console.log(parent.children);// how many childern of paranet // return html colection 
+        // console.log(parent.children[0].innerText);// how many childern of paranet // return html colection 
+
+
+
+        // for loop on html collection 
+        // for (let index = 0; index < parent.children.length; index++) {
+        //     console.log(parent.children[index].innerText);
+        // }
+
+        parent.children[0].style.backgroundColor = "orange" // chaneg colr of element by html-collection which is paraent.children
+
+
+        // methods
+        // console.log(parent.children);// get all childrent elemt in html colection form
+        // console.log(parent.firstElementChild); // get first elemt of parent 
+        // console.log(parent.lastElementChild); // get last elemt of parent 
+//      parenetElemnt => get parent elemnt 
+//      nextElementSibling => get next element of childern
+
+// childNodes 
+console.log(parent.childNodes); // count enter and element both  also count comment 
+
+
+    </script>
+</body>
+
+</html>

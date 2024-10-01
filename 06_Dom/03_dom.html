@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #212121;
+        color: aliceblue;
+    }
+</style>
+
+<body>
+    <ul>
+        <li>java</li>
+        <li>js</li>
+        <li>py</li>
+    </ul>
+</body>
+<script>
+
+    // function for add element child of element 
+function createElement (elementName,elementvalue,elementselector) {
+   let element =  document.createElement(elementName)
+   element.appendChild(document.createTextNode(elementvalue ))
+   let parenet = document.querySelector(elementselector).appendChild(element)
+}
+console.log(createElement("li","c++","ul"));
+console.log(createElement("li","ruby","ul"));
+console.log(createElement("li","type-script","ul"));
+
+// replace child eleemnt  by replace with methods
+let seclang =  document.querySelector("li:nth-child(2)")
+let newli = document.createElement("li")
+newli.textContent = "rdcfvhjn "
+seclang.replaceWith(newli)
+
+
+//  replace with outer html
+document.querySelector("li:first-child").outerHTML = "<li> repace with xyz </li>"
+
+// REMOVE
+document.querySelector("li:Last-child").remove()
+
+</script>
+
+</html>
