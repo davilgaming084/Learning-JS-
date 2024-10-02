@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #212121;
+        color: aliceblue;
+    }
+</style>
+
+<body>
+    <h1>hello</h1>
+    <buttton id="start">start</buttton>
+    <buttton id="stop">Stop</buttton>
+</body>
+<script>
+    // setinterval => run continusly after some time
+    let startInterval;
+    document.querySelector("#start").addEventListener("click", () => {
+        startInterval = setInterval(() => {
+            console.log(Date.now());
+        }, 1000)
+    })
+    document.querySelector("#stop").addEventListener('click', () => {
+        clearInterval(startInterval)
+    })
+
+
+
+    // clear interval => stop interval 
+</script>
+
+</html>

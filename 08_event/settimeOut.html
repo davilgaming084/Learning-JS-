@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #212121;
+        color: aliceblue;
+    }
+</style>
+
+<body>
+    <h1>hello</h1>
+    <buttton id="stop">Stop</buttton>
+</body>
+<script>
+    // settimeeout run only 1 time 
+    let sayName = function () {
+        // console.log("satish");
+        document.querySelector("h1").innerText = "updated value"
+
+    }
+    let timeout = setTimeout(sayName, 2000)
+
+    // clearTime out =>  stop work of settimeout  when click btn
+    document.querySelector("#stop").addEventListener('click',()=>{
+        clearTimeout(timeout)
+        console.log("stoped");
+    })
+    
+
+</script>
+
+</html>
