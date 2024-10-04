@@ -20,18 +20,37 @@ let USER = {
 
 
 function User(username, logCOunt, islogin) {
-    this.username = username
-    this.logCount = logCOunt
-    this.islogin = islogin
+     this.username = username // this.variable_of_obj = username
+     this.logCount = logCOunt // this.variable_of_obj = logCOunt
+     this.islogin = islogin    // this.variable_of_obj = islogin
     return this
 }
-let userOne = new User("hitesh", 6, true)
-let userTwo = new User("satish", 6, true)
-console.log(userOne);
-console.log(userTwo);
+// let userOne = new User() // User { username: undefined, logCount: undefined, islogin: undefined }
+// let userTwo = new User("satish",7,true) // User { username: 'satish', logCount: 7, islogin: true }
+// console.log(userOne);
+// console.log(userTwo);
 
 // new 
 // 1) when you use new create empty object 
 //2) call constructur fuction by using new  
 // 3) add on this of parent/cunstructur 
 // 3 output 
+
+
+///// using class constructor 
+class UserINfo {
+    constructor(username, logCOunt, pass) {
+        this.username = username
+        this.logCount = logCOunt
+        this.pass = pass
+    }
+    encreptPassword() {
+        return `${this.pass}`
+    }
+}
+let UserInfo1 =  new UserINfo("satish",6,123)
+let UserInfo2 =  new UserINfo("satish",6,123)
+
+
+console.log(UserInfo1.encreptPassword()); // 123
+console.log(UserInfo2); // whole obj created by UserINfo instance 

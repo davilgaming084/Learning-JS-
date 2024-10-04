@@ -24,6 +24,9 @@ async function GetData() {
 // console.log(GetData()); // log pending promise
 // when you work with fetch api only use .json() becouse fetch return object 
 
+
+
+// testing -- 
 //////////////////////////////////////////////////////////
 async function GETDATA() {
     try {
@@ -72,6 +75,66 @@ response.then((response) => {
 }).finally(() => {
     console.log("work done");
 });
+
+
+
+
+
+
+/////////////////////////////////////////// re test /////////////////////////////////
+
+
+
+
+
+
+
+
+//////////// asunce await call respnse of api
+async function getdata(params) {
+    try {
+        let response = await fetch("https://api.github.com/users/davilgaming084"); // Valid URL for comparison
+
+        // Check if the response is ok (status in the range 200-299)
+        if (!response.ok) {
+            throw new Error(`http error status ${response.status}`)
+        }
+
+        let data = await response.json()
+        document.querySelector("h1").innerText = data.login;
+        document.querySelector("img").src = data.avatar_url;
+
+    }
+    catch (error) {
+        console.log(error.message);
+        document.querySelector("h1").innerText = "Error fetching data"
+    }
+
+}
+// getdata()
+
+
+
+/////////////// .then.catch.fainaly
+// let response = fetch("https://api.github.com/users/davilgaming084")
+//     .then((response) => {
+//         if (!response.ok) {
+//             throw new Error(`HTTP error status ${response.status}`); // Capitalized "HTTP" for consistency
+//         }
+//         return response.json();
+//     }).then((data) => {
+//         console.log(data);
+//         document.querySelector("h1").innerText = data.login;
+//         document.querySelector("img").src = data.avatar_url;
+//     }).catch((error) => {
+//         console.log(`Error occurred: ${error.message}`); // Corrected "ocupaid" to "occurred"
+//         document.querySelector("h1").innerText = "Error fetching data"; // Display error message
+//     }).finally(() => {
+//         console.log("Work done"); // Capitalized "Work" for consistency
+//     });
+
+
+
 
 
 
